@@ -1,0 +1,10 @@
+{
+    "version": "0.1.0",
+        "command": "/usr/bin/python",
+        "isShellCommand": true,
+        "args": ["${file}"],
+        "showOutput": "always",
+        "env": {},
+        "envFile": "${workspaceRoot}/.env",
+        "pythonPath": "${config:python.pythonPath}"
+}
